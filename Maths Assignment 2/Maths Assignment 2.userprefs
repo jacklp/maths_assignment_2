@@ -1,8 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RenderTerrain.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MainController.cs" Line="8" Column="3" />
+      <File FileName="Assets/Scripts/RenderTerrain.cs" Line="15" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/jackprior/Documents/work/c++/maths_assignment_2/Maths Assignment 2/Assets/Scripts/RenderTerrain.cs" line="22" column="29" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
