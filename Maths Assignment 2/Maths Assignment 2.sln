@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{4D1CB380-7431-B22A-698E-76116EABAFA6}") = "Maths Assignment 2", "Assembly-CSharp.csproj", "{F1A4ECC9-EC8E-242E-3B3A-0B7445A0C2A9}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maths Assignment 2.CSharp", "Maths Assignment 2.CSharp.csproj", "{14CC256C-56DD-8B43-6B57-98605A4C3862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F1A4ECC9-EC8E-242E-3B3A-0B7445A0C2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1A4ECC9-EC8E-242E-3B3A-0B7445A0C2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1A4ECC9-EC8E-242E-3B3A-0B7445A0C2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1A4ECC9-EC8E-242E-3B3A-0B7445A0C2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CC256C-56DD-8B43-6B57-98605A4C3862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CC256C-56DD-8B43-6B57-98605A4C3862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CC256C-56DD-8B43-6B57-98605A4C3862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CC256C-56DD-8B43-6B57-98605A4C3862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
