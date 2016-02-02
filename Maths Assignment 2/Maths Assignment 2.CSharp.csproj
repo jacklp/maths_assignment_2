@@ -70,8 +70,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BallAccelerometer.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
+    <Compile Include="Assets\Scripts\GyroscopeSettings.cs" />
     <Compile Include="Assets\Scripts\MainController.cs" />
     <Compile Include="Assets\Scripts\RenderTerrain.cs" />
+    <Compile Include="Assets\Scripts\gyroscopeController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\heightmap.txt" />
