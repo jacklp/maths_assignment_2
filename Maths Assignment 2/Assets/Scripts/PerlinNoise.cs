@@ -57,7 +57,7 @@ public class PerlinNoise : MonoBehaviour {
 
         File.WriteAllBytes(Application.dataPath + "/../PerlinHeightMap.png", byteData);
 
-        HeightmapFromTexture.heightmapFromTexture(skin);
+        //HeightmapFromTexture.heightmapFromTexture(skin);
     }
 
     public void FillColor()
