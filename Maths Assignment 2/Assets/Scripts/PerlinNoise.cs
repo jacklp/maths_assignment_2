@@ -45,7 +45,7 @@ public class PerlinNoise : MonoBehaviour {
             skin.wrapMode = TextureWrapMode.Clamp;
             skin.filterMode = FilterMode.Bilinear;
             skin.anisoLevel = 9;
-            //this.GetComponent<MeshRenderer>().material.mainTexture = skin;
+            this.GetComponent<MeshRenderer>().material.mainTexture = skin;
         }
         FillColor();
         SetTexture();
