@@ -4,22 +4,21 @@ using System.Collections;
 public class gyroscopeController : MonoBehaviour {
     public bool enableTilt;
     private float initialX;
-  //  private float initialY;
+    private float initialY;
     private float initialZ;
     private float accelX =1.0f;
-    private float accelY;
+    private float accelY = 1.0f;
     private float accelZ=1.0f;
-    private float maxX=10;
-    private float maxZ=10;
+    private float Max = 10;
     private Quaternion fixRot;
     private Quaternion speed;
     // Use this for initialization
     void Start () {
         Input.gyro.enabled = true;
 
-        initialX = Mathf.Clamp(Input.gyro.rotationRate.x, maxX, -maxX);
-
-        initialZ = Mathf.Clamp(Input.gyro.rotationRate.z, maxZ, -maxZ);
+        initialX = Mathf.Clamp(Input.gyro.rotationRate.x, Max, -Max);
+        initialY = Mathf.Clamp(Input.gyro.rotationRate.y, Max, -Max);
+        initialZ = Mathf.Clamp(Input.gyro.rotationRate.z, Max, -Max);
 
         if (Screen.orientation == ScreenOrientation.LandscapeLeft)
         {
@@ -53,7 +52,7 @@ public class gyroscopeController : MonoBehaviour {
 
         speed = Input.gyro.attitude * fixRot;
 
-        GetComponent<Rigidbody>().AddForce(accelX*10, 0, accelZ*10);
+        GetComponent<Rigidbody>().AddForce(-accelZ*10, 0, -accelX * 10);
 
         if (SystemInfo.supportsGyroscope)
         {
